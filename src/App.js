@@ -1,4 +1,4 @@
-import { Header, Hero } from "./sections";
+import { About, CTA, Features, Footer, Header, Hero, Testimonials } from "./sections";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 function App() {
@@ -13,6 +13,11 @@ function App() {
     <div className="overflow-hidden">
       <Header />
     <Hero />
+    <About />
+    <Features />
+    <Testimonials />
+    <CTA />
+    <Footer />
     </div>
   );
 }

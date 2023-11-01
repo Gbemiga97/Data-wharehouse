@@ -10,10 +10,12 @@ const Header = () => {
     const [showNav, setShowNav] = useState(false)
 
   return (
-    <header className='py-8 mb-12 lg:mb-0 z-20 relative px-4 lg:px-0'>
+    <header 
+    data-aos='fade-down' data-aos-delay='1200' data-aos-duration='1000'
+    className='py-8 mb-12 lg:mb-0 z-20 relative px-4 lg:px-0'>
         <div className="container mx-auto">
             <div className='flex items-center justify-between relative'>
-                <div className='flex items-center gap-x-[110px]'>
+                <div className='flex items-center gap-x-[120px]'>
                 <a href="#">
                     <img src={images.Logo} alt="logo" />
                 </a>
